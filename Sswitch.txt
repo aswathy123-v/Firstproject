@@ -1,0 +1,28 @@
+import java.util.*;
+class Sswitch
+ {
+   public static void main(String[]args)
+    {
+	Scanner myobj=new Scanner(System.in);
+	System.out.println("operations,add,sub,mul");
+	String operations=myobj.nextline();
+	System.out.println("enter two number");
+		int a=myobj.nextInt();
+                int b=myobj.nextInt();
+  Switch(operations)
+     case "add":
+         int c=a+b;
+         System.out.println("addition" +c);
+         break;
+   case"sub":
+         int c=a-b;
+         System.out.println("substaction" +c);
+         break;
+ case"mul":
+         int c=a*b;
+         System.out.println("multiplication" +c);
+         break;
+default:
+       System.out.println("flase");
+}
+}
